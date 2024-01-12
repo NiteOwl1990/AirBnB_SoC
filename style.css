@@ -3,7 +3,7 @@ body{
 }
 
 
-.topnav  input{
+#searchbarbutton{
 border: 1px #c7c7c7 solid;
 border-radius: 50px;
 border-color: white;
@@ -13,7 +13,11 @@ font-weight: 500;
 color: black;
 }
 
-.topnav input::placeholder{
+#iconbar{
+    display: flex;
+}
+
+.searchbar input::placeholder{
     color: black;
     font-family: Circular, -apple-system, "system-ui", Roboto, "Helvetica Neue", sans-serif;
     padding-left: 25px;

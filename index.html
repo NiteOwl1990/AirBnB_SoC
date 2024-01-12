@@ -1,16 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>AirBnB</title>
-</head>
-<body>
-    <div class="topnav">
-        <input type="text" placeholder="Anywhere">
-      </div> 
-      <p> Hello World </p>
-
-</body>
+  </head>
+  <body>
+    <main>
+      <div id="navbar">
+        <div class="searchbar">
+          <button id="searchbarbutton">
+            <img src="assets/search.svg" alt="searchbar" />
+            <div class="searchtext">
+              <p>Anywhere</p>
+              <p>Any week &#8226; Add guests</p>
+            </div>
+          </button>
+          <button>
+            <img src="assets/filters.svg" alt="filter" />
+          </button>
+        </div>
+        <div id="iconbar">
+          <div class="icon">
+            <img
+              src="assets/cabinicon.jpeg"
+              alt="cabinicon"
+              class="iconimages"
+            />
+            <p class="icontext">Cabins</p>
+          </div>
+          <div class="icon">
+            <img src="assets/treeicon.jpeg" alt="treeicon" class="iconimages" />
+            <p class="icontext">Treehouses</p>
+          </div>
+          <div class="icon">
+            <img
+              src="assets/beachicon.jpeg"
+              alt="beachicon"
+              class="iconimages"
+            />
+            <p class="icontext">Beachfront</p>
+          </div>
+          <div class="icon">
+            <img
+              src="assets/luxicon.jpeg"
+              alt="luxuryicon"
+              class="iconimages"
+            />
+            <p class="icontext">Luxury</p>
+          </div>
+          <div class="icon">
+            <img
+              src="assets/countrysideicon.jpeg"
+              alt="countrysideicon"
+              class="iconimages"
+            />
+            <p class="icontext">Country Side</p>
+          </div>
+          <div class="icon">
+            <img
+              src="assets/mansionicon.jpeg"
+              alt="mansionicon"
+              class="iconimages"
+            />
+            <p class="icontext">Mansions</p>
+          </div>
+          <div class="icon">
+            <img src="assets/omgicon.jpeg" alt="omgicon" class="iconimages" />
+            <p class="icontext">OMG!</p>
+          </div>
+          <div class="icon">
+            <img src="assets/poolicon.jpg" alt="poolicon" class="iconimages" />
+            <p class="icontext">Pools</p>
+          </div>
+          <div class="icon">
+            <img
+              src="assets/trendingicon.jpeg"
+              alt="trendingicon"
+              class="iconimages"
+            />
+            <p class="icontext">Trending</p>
+          </div>
+        </div>
+      </div>
+      <div id="imagecontainer">
+        <div class="imagegrid">
+          <div class="buttoncontainer">
+            <button>Guest Favourite</button>
+            <button>Heart</button>
+          </div>
+          <img src="assets/windhouse.webp" alt="Windmillhouse" />
+          <div class="imagetext">
+            <p>Massachusetts, USA</p>
+            <p>Individual Host</p>
+            <p>4-9 Feb</p>
+            <p>£2,250 total</p>
+          </div>
+          <div class="imagerating">
+            <img src="assets/staricon.svg" alt="ratingstar">
+            <p>4.39</p>
+          </div>
+        </div>
+        <div class="imagegrid">
+          <div class="buttoncontainer">
+            <button>Guest Favourite</button>
+            <button>Heart</button>
+          </div>
+          <img src="assets/cdhouse.webp" alt="cdhouse" />
+          <div class="imagetext">
+            <p>Earlswood, UK</p>
+            <p>Individual Host</p>
+            <p>5-10 Aug</p>
+            <p>£1,850 total</p>
+          </div>
+          <div class="imagerating">
+            <img src="assets/staricon.svg" alt="ratingstar">
+            <p>4.85</p>
+          </div>
+        </div>
+        <div class="imagegrid">
+          <div class="buttoncontainer">
+            <button>Guest Favourite</button>
+            <button>Heart</button>
+          </div>
+          <img src="assets/keyhouse.webp" alt="keyhouse" />
+          <div class="imagetext">
+            <p>Devon, UK</p>
+            <p>Individual Host</p>
+            <p>15-21 Mar</p>
+            <p>£3,650 total</p>
+          </div>
+          <div class="imagerating">
+            <img src="assets/staricon.svg" alt="ratingstar">
+            <p>4.65</p>
+          </div>
+        </div>
+        <div class="imagegrid">
+          <div class="buttoncontainer">
+            <button>Guest Favourite</button>
+            <button>Heart</button>
+          </div>
+          <img src="assets/manhouse.webp" alt="manhouse" />
+          <div class="imagetext">
+            <p>Amsterdam, Netherlands</p>
+            <p>Professional Host</p>
+            <p>22-27 Feb</p>
+            <p>£4,912 total</p>
+          </div>
+          <div class="imagerating">
+            <img src="assets/staricon.svg" alt="ratingstar">
+            <p>4.93</p>
+          </div>
+        </div>
+        <div class="imagegrid">
+          <div class="buttoncontainer">
+            <button>Guest Favourite</button>
+            <button>Heart</button>
+          </div>
+          <img src="assets/subhouse.webp" alt="subhouse" />
+          <div class="imagetext">
+            <p>Drimnin, UK</p>
+            <p>Individual Host</p>
+            <p>22-27 Jan</p>
+            <p>£994 total</p>
+          </div>
+          <div class="imagerating">
+            <img src="assets/staricon.svg" alt="ratingstar">
+            <p>4.94</p>
+          </div>
+        </div>
+        <div class="imagegrid">
+          <div class="buttoncontainer">
+            <button>Guest Favourite</button>
+            <button>Heart</button>
+          </div>
+          <img src="assets/ufohouse.webp" alt="ufohouse" />
+          <div class="imagetext">
+            <p>Redberth, UK</p>
+            <p>Individual Host</p>
+            <p>12-17 Jan</p>
+            <p>£1,065 total</p>
+          </div>
+          <div class="imagerating">
+            <img src="assets/staricon.svg" alt="ratingstar">
+            <p>4.84</p>
+          </div>
+        </div>
+        <div class="imagegrid">
+          <div class="buttoncontainer">
+            <button>Guest Favourite</button>
+            <button>Heart</button>
+          </div>
+          <img src="assets/ramphouse.webp" alt="ramphouse" />
+          <div class="imagetext">
+            <p>Tervuren, Belgium</p>
+            <p>Individual Host</p>
+            <p>21-26 Mar</p>
+            <p>£563 total</p>
+          </div>
+          <div class="imagerating">
+            <img src="assets/staricon.svg" alt="ratingstar">
+            <p>4.87</p>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footerlink">
+            <img src="assets/redSearch.svg" alt="search" />
+            <p class="search">Explore</p>
+        </div>
+        <div class="footerlink">
+            <img src="assets/outlineHeart.svg" alt="heart" />
+            <p class="heart">Wishlist</p>
+        </div>
+        <div class="footerlink">
+            <img src="assets/loginicon.svg" alt="login" />
+            <p class="login">Login</p>
+        </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
