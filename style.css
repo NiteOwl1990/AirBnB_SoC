@@ -13,8 +13,15 @@ font-weight: 500;
 color: black;
 }
 
+.searchbar > * {
+    text-align: left;
+}
+
+
 #iconbar{
     display: flex;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 .searchbar input::placeholder{
