@@ -10,12 +10,14 @@ body{
 
 #navbar{
     box-shadow: 0px 1px 4px 0px #d1d1d1;
+    position: fixed;
+    background-color: white;
+    z-index: 3;
 }
 
 .searchbar{
     display: flex;
     padding: 14px 24px 0px;
-    justify-content: space-around;
 }
 
 #searchbarbutton{
@@ -29,6 +31,7 @@ color: black;
 background-color: white;
 display: flex;
 align-items: center;
+margin-right: 10px;
 
 }
 
@@ -88,4 +91,30 @@ align-items: center;
 
 .icontext{
     font-size: 12px;
+}
+
+#imagecontainer{
+    padding-top: 160px;
+}
+
+.imagegrid{
+    padding: 20px;
+}
+
+.imagegrid img{
+    width: 342px;
+    height: 342px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+}
+
+.imagerating img{
+    width: 12px;
+    height: 12px;
+}
+
+.buttoncontainer{
+    position: absolute;
+    z-index: 2;
 }
