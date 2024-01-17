@@ -11,7 +11,7 @@ body{
 .searchbar{
     display: flex;
     padding: 14px 24px 0px;
-    max-width: 80%;
+    justify-content: space-around;
 }
 
 #searchbarbutton{
@@ -19,7 +19,7 @@ border: 1px #c7c7c7 solid;
 border-radius: 50px;
 border-color: white;
 padding: 0px 4px;
-box-shadow: 0px 1px 8px 1px #c7c7c7;
+box-shadow: 0px 1px 8px 1px #d1d1d1;
 font-weight: 500;
 color: black;
 background-color: white;
