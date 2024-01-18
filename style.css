@@ -119,9 +119,9 @@ margin-right: 10px;
     display: flex;
     justify-content: flex-end;  
     width: 100px;
-    height: 21px;
+    height: 0px;
     align-items: center;
-    margin-left: 230px;
+    margin-left: 160px;
 }
 
 
@@ -157,6 +157,13 @@ margin-right: 10px;
     height: 24px;
     border-color: transparent;
     background-color: transparent;
+}
+
+.imageInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 80%;
 }
 
 
