@@ -118,3 +118,28 @@ margin-right: 10px;
     position: absolute;
     z-index: 2;
 }
+
+.buttoncontainer img{
+    width: 24px;
+    height: 24px
+}
+
+.guestbutton{
+    border-radius: 50px;
+    border: 1px;
+    border-color: #c7c7c7;
+    background-color: white;
+    width: 126px;
+    height: 28px;
+    margin-top: 14px;
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.heartbutton{
+    width: 24px;
+    height: 24px;
+    border-color: red;
+
+}
