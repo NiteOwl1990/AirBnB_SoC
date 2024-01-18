@@ -138,8 +138,38 @@ margin-right: 10px;
 }
 
 .heartbutton{
+    display: flex;
+    justify-content: center;
+    padding-left: 310px;
+    margin-top: -30px;
     width: 24px;
     height: 24px;
-    border-color: red;
+    border-color: transparent;
+    background-color: transparent;
+}
 
+#footer{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    overflow-x: auto;
+    box-shadow: 0px 1px 4px 4px #d1d1d1;
+}
+
+.footerlink{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerimages{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footertext{
+    font-size: 12px;
 }
